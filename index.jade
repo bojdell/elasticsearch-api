@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+  head
+    title Elasticsearch Rest APIs
+    link(rel="stylesheet" href="style.css")
+  body
+    h1 Elasticsearch Rest APIs
+    table
+      tr
+        th= "Name"
+        th= "Method"
+        th= "Path"
+      each api in apis
+        tr
+          td= api.name
+          td= api.method
+          td= api.path

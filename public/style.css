@@ -1,0 +1,14 @@
+body {
+  padding: 1em 3em;
+  font-family: Arial;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.5em 2em 0.5em 0.5em;
+  text-align: left;
+  border: 1px solid #ddd;
+}
