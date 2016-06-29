@@ -1,0 +1,1584 @@
+{
+  "apis": [
+    {
+      "name": "Alias",
+      "method": "GET",
+      "path": "/_cat/aliases"
+    },
+    {
+      "name": "Alias",
+      "method": "GET",
+      "path": "/_cat/aliases/{alias}"
+    },
+    {
+      "name": "AliasesExist",
+      "method": "HEAD",
+      "path": "/_alias/{name}"
+    },
+    {
+      "name": "AliasesExist",
+      "method": "HEAD",
+      "path": "/{index}/_alias"
+    },
+    {
+      "name": "AliasesExist",
+      "method": "HEAD",
+      "path": "/{index}/_alias/{name}"
+    },
+    {
+      "name": "Allocation",
+      "method": "GET",
+      "path": "/_cat/allocation"
+    },
+    {
+      "name": "Allocation",
+      "method": "GET",
+      "path": "/_cat/allocation/{nodes}"
+    },
+    {
+      "name": "Analyze",
+      "method": "GET",
+      "path": "/_analyze"
+    },
+    {
+      "name": "Analyze",
+      "method": "GET",
+      "path": "/{index}/_analyze"
+    },
+    {
+      "name": "Analyze",
+      "method": "POST",
+      "path": "/_analyze"
+    },
+    {
+      "name": "Analyze",
+      "method": "POST",
+      "path": "/{index}/_analyze"
+    },
+    {
+      "name": "Bulk",
+      "method": "POST",
+      "path": "/_bulk"
+    },
+    {
+      "name": "Bulk",
+      "method": "POST",
+      "path": "/{index}/_bulk"
+    },
+    {
+      "name": "Bulk",
+      "method": "POST",
+      "path": "/{index}/{type}/_bulk"
+    },
+    {
+      "name": "Bulk",
+      "method": "PUT",
+      "path": "/_bulk"
+    },
+    {
+      "name": "Bulk",
+      "method": "PUT",
+      "path": "/{index}/_bulk"
+    },
+    {
+      "name": "Bulk",
+      "method": "PUT",
+      "path": "/{index}/{type}/_bulk"
+    },
+    {
+      "name": "Cat",
+      "method": "GET",
+      "path": "/_cat"
+    },
+    {
+      "name": "ClearIndicesCache",
+      "method": "GET",
+      "path": "/_cache/clear"
+    },
+    {
+      "name": "ClearIndicesCache",
+      "method": "GET",
+      "path": "/{index}/_cache/clear"
+    },
+    {
+      "name": "ClearIndicesCache",
+      "method": "POST",
+      "path": "/_cache/clear"
+    },
+    {
+      "name": "ClearIndicesCache",
+      "method": "POST",
+      "path": "/{index}/_cache/clear"
+    },
+    {
+      "name": "ClearScroll",
+      "method": "DELETE",
+      "path": "/_search/scroll"
+    },
+    {
+      "name": "ClearScroll",
+      "method": "DELETE",
+      "path": "/_search/scroll/{scroll_id}"
+    },
+    {
+      "name": "CloseIndex",
+      "method": "POST",
+      "path": "/_close"
+    },
+    {
+      "name": "CloseIndex",
+      "method": "POST",
+      "path": "/{index}/_close"
+    },
+    {
+      "name": "ClusterGetSettings",
+      "method": "GET",
+      "path": "/_cluster/settings"
+    },
+    {
+      "name": "ClusterHealth",
+      "method": "GET",
+      "path": "/_cluster/health"
+    },
+    {
+      "name": "ClusterHealth",
+      "method": "GET",
+      "path": "/_cluster/health/{index}"
+    },
+    {
+      "name": "ClusterReroute",
+      "method": "POST",
+      "path": "/_cluster/reroute"
+    },
+    {
+      "name": "ClusterSearchShards",
+      "method": "GET",
+      "path": "/_search_shards"
+    },
+    {
+      "name": "ClusterSearchShards",
+      "method": "GET",
+      "path": "/{index}/_search_shards"
+    },
+    {
+      "name": "ClusterSearchShards",
+      "method": "GET",
+      "path": "/{index}/{type}/_search_shards"
+    },
+    {
+      "name": "ClusterSearchShards",
+      "method": "POST",
+      "path": "/_search_shards"
+    },
+    {
+      "name": "ClusterSearchShards",
+      "method": "POST",
+      "path": "/{index}/_search_shards"
+    },
+    {
+      "name": "ClusterSearchShards",
+      "method": "POST",
+      "path": "/{index}/{type}/_search_shards"
+    },
+    {
+      "name": "ClusterState",
+      "method": "GET",
+      "path": "/_cluster/state"
+    },
+    {
+      "name": "ClusterState",
+      "method": "GET",
+      "path": "/_cluster/state/{metric}"
+    },
+    {
+      "name": "ClusterState",
+      "method": "GET",
+      "path": "/_cluster/state/{metric}/{indices}"
+    },
+    {
+      "name": "ClusterStats",
+      "method": "GET",
+      "path": "/_cluster/stats"
+    },
+    {
+      "name": "ClusterStats",
+      "method": "GET",
+      "path": "/_cluster/stats/nodes/{nodeId}"
+    },
+    {
+      "name": "ClusterUpdateSettings",
+      "method": "PUT",
+      "path": "/_cluster/settings"
+    },
+    {
+      "name": "Count",
+      "method": "GET",
+      "path": "/_count"
+    },
+    {
+      "name": "Count",
+      "method": "GET",
+      "path": "/{index}/_count"
+    },
+    {
+      "name": "Count",
+      "method": "GET",
+      "path": "/{index}/{type}/_count"
+    },
+    {
+      "name": "Count",
+      "method": "POST",
+      "path": "/_count"
+    },
+    {
+      "name": "Count",
+      "method": "POST",
+      "path": "/{index}/_count"
+    },
+    {
+      "name": "Count",
+      "method": "POST",
+      "path": "/{index}/{type}/_count"
+    },
+    {
+      "name": "CreateIndex",
+      "method": "POST",
+      "path": "/{index}"
+    },
+    {
+      "name": "CreateIndex",
+      "method": "PUT",
+      "path": "/{index}"
+    },
+    {
+      "name": "CreateSnapshot",
+      "method": "POST",
+      "path": "/_snapshot/{repository}/{snapshot}"
+    },
+    {
+      "name": "CreateSnapshot",
+      "method": "POST",
+      "path": "/_snapshot/{repository}/{snapshot}/_create"
+    },
+    {
+      "name": "CreateSnapshot",
+      "method": "PUT",
+      "path": "/_snapshot/{repository}/{snapshot}"
+    },
+    {
+      "name": "CreateSnapshot",
+      "method": "PUT",
+      "path": "/_snapshot/{repository}/{snapshot}/_create"
+    },
+    {
+      "name": "Delete",
+      "method": "DELETE",
+      "path": "/{index}/{type}/{id}"
+    },
+    {
+      "name": "DeleteByQuery",
+      "method": "DELETE",
+      "path": "/{index}/_query"
+    },
+    {
+      "name": "DeleteByQuery",
+      "method": "DELETE",
+      "path": "/{index}/{type}/_query"
+    },
+    {
+      "name": "DeleteIndex",
+      "method": "DELETE",
+      "path": "/"
+    },
+    {
+      "name": "DeleteIndex",
+      "method": "DELETE",
+      "path": "/{index}"
+    },
+    {
+      "name": "DeleteIndexTemplate",
+      "method": "DELETE",
+      "path": "/_template/{name}"
+    },
+    {
+      "name": "DeleteIndexedScript",
+      "method": "DELETE",
+      "path": "/_scripts/{lang}/{id}"
+    },
+    {
+      "name": "DeleteMapping",
+      "method": "DELETE",
+      "path": "/{index}/_mapping/{type}"
+    },
+    {
+      "name": "DeleteMapping",
+      "method": "DELETE",
+      "path": "/{index}/_mappings/{type}"
+    },
+    {
+      "name": "DeleteMapping",
+      "method": "DELETE",
+      "path": "/{index}/{type}/_mapping"
+    },
+    {
+      "name": "DeleteMapping",
+      "method": "DELETE",
+      "path": "/{index}/{type}/_mappings"
+    },
+    {
+      "name": "DeleteRepository",
+      "method": "DELETE",
+      "path": "/_snapshot/{repository}"
+    },
+    {
+      "name": "DeleteSearchTemplate",
+      "method": "DELETE",
+      "path": "/_search/template/{id}"
+    },
+    {
+      "name": "DeleteSnapshot",
+      "method": "DELETE",
+      "path": "/_snapshot/{repository}/{snapshot}"
+    },
+    {
+      "name": "DeleteWarmer",
+      "method": "DELETE",
+      "path": "/{index}/_warmer"
+    },
+    {
+      "name": "DeleteWarmer",
+      "method": "DELETE",
+      "path": "/{index}/_warmer/{name}"
+    },
+    {
+      "name": "DeleteWarmer",
+      "method": "DELETE",
+      "path": "/{index}/_warmers"
+    },
+    {
+      "name": "DeleteWarmer",
+      "method": "DELETE",
+      "path": "/{index}/_warmers/{name}"
+    },
+    {
+      "name": "Explain",
+      "method": "GET",
+      "path": "/{index}/{type}/{id}/_explain"
+    },
+    {
+      "name": "Explain",
+      "method": "POST",
+      "path": "/{index}/{type}/{id}/_explain"
+    },
+    {
+      "name": "FieldStats",
+      "method": "GET",
+      "path": "/_field_stats"
+    },
+    {
+      "name": "FieldStats",
+      "method": "GET",
+      "path": "/{index}/_field_stats"
+    },
+    {
+      "name": "FieldStats",
+      "method": "POST",
+      "path": "/_field_stats"
+    },
+    {
+      "name": "FieldStats",
+      "method": "POST",
+      "path": "/{index}/_field_stats"
+    },
+    {
+      "name": "Fielddata",
+      "method": "GET",
+      "path": "/_cat/fielddata"
+    },
+    {
+      "name": "Fielddata",
+      "method": "GET",
+      "path": "/_cat/fielddata/{fields}"
+    },
+    {
+      "name": "Flush",
+      "method": "GET",
+      "path": "/_flush"
+    },
+    {
+      "name": "Flush",
+      "method": "GET",
+      "path": "/{index}/_flush"
+    },
+    {
+      "name": "Flush",
+      "method": "POST",
+      "path": "/_flush"
+    },
+    {
+      "name": "Flush",
+      "method": "POST",
+      "path": "/{index}/_flush"
+    },
+    {
+      "name": "Get",
+      "method": "GET",
+      "path": "/{index}/{type}/{id}"
+    },
+    {
+      "name": "GetAliases",
+      "method": "GET",
+      "path": "/_alias/{name}"
+    },
+    {
+      "name": "GetAliases",
+      "method": "GET",
+      "path": "/{index}/_alias/{name}"
+    },
+    {
+      "name": "GetFieldMapping",
+      "method": "GET",
+      "path": "/_mapping/field/{fields}"
+    },
+    {
+      "name": "GetFieldMapping",
+      "method": "GET",
+      "path": "/_mapping/{type}/field/{fields}"
+    },
+    {
+      "name": "GetFieldMapping",
+      "method": "GET",
+      "path": "/{index}/_mapping/field/{fields}"
+    },
+    {
+      "name": "GetFieldMapping",
+      "method": "GET",
+      "path": "/{index}/_mapping/{type}/field/{fields}"
+    },
+    {
+      "name": "GetFieldMapping",
+      "method": "GET",
+      "path": "/{index}/{type}/_mapping/field/{fields}"
+    },
+    {
+      "name": "GetIndexTemplate",
+      "method": "GET",
+      "path": "/_template"
+    },
+    {
+      "name": "GetIndexTemplate",
+      "method": "GET",
+      "path": "/_template/{name}"
+    },
+    {
+      "name": "GetIndexedScript",
+      "method": "GET",
+      "path": "/_scripts/{lang}/{id}"
+    },
+    {
+      "name": "GetIndices",
+      "method": "GET",
+      "path": "/{index}"
+    },
+    {
+      "name": "GetIndices",
+      "method": "GET",
+      "path": "/{index}/{type}"
+    },
+    {
+      "name": "GetIndicesAliases",
+      "method": "GET",
+      "path": "/_aliases/{name}"
+    },
+    {
+      "name": "GetIndicesAliases",
+      "method": "GET",
+      "path": "/{index}/_aliases/{name}"
+    },
+    {
+      "name": "GetMapping",
+      "method": "GET",
+      "path": "/_mapping/{type}"
+    },
+    {
+      "name": "GetMapping",
+      "method": "GET",
+      "path": "/{index}/_mapping/{type}"
+    },
+    {
+      "name": "GetMapping",
+      "method": "GET",
+      "path": "/{index}/_mappings/{type}"
+    },
+    {
+      "name": "GetMapping",
+      "method": "GET",
+      "path": "/{index}/{type}/_mapping"
+    },
+    {
+      "name": "GetRepositories",
+      "method": "GET",
+      "path": "/_snapshot"
+    },
+    {
+      "name": "GetRepositories",
+      "method": "GET",
+      "path": "/_snapshot/{repository}"
+    },
+    {
+      "name": "GetSearchTemplate",
+      "method": "GET",
+      "path": "/_search/template/{id}"
+    },
+    {
+      "name": "GetSettings",
+      "method": "GET",
+      "path": "/_settings/{name}"
+    },
+    {
+      "name": "GetSettings",
+      "method": "GET",
+      "path": "/{index}/_setting/{name}"
+    },
+    {
+      "name": "GetSettings",
+      "method": "GET",
+      "path": "/{index}/_settings/{name}"
+    },
+    {
+      "name": "GetSnapshots",
+      "method": "GET",
+      "path": "/_snapshot/{repository}/{snapshot}"
+    },
+    {
+      "name": "GetSource",
+      "method": "GET",
+      "path": "/{index}/{type}/{id}/_source"
+    },
+    {
+      "name": "GetWarmer",
+      "method": "GET",
+      "path": "/_warmer/{name}"
+    },
+    {
+      "name": "GetWarmer",
+      "method": "GET",
+      "path": "/{index}/_warmer/{name}"
+    },
+    {
+      "name": "GetWarmer",
+      "method": "GET",
+      "path": "/{index}/_warmers/{name}"
+    },
+    {
+      "name": "GetWarmer",
+      "method": "GET",
+      "path": "/{index}/{type}/_warmer/{name}"
+    },
+    {
+      "name": "Head",
+      "method": "HEAD",
+      "path": "/{index}/{type}/{id}"
+    },
+    {
+      "name": "HeadIndexTemplate",
+      "method": "HEAD",
+      "path": "/_template/{name}"
+    },
+    {
+      "name": "HeadSource",
+      "method": "HEAD",
+      "path": "/{index}/{type}/{id}/_source"
+    },
+    {
+      "name": "Health",
+      "method": "GET",
+      "path": "/_cat/health"
+    },
+    {
+      "name": "Index",
+      "method": "POST",
+      "path": "/{index}/{type}"
+    },
+    {
+      "name": "Index",
+      "method": "POST",
+      "path": "/{index}/{type}/{id}"
+    },
+    {
+      "name": "Index",
+      "method": "POST",
+      "path": "/{index}/{type}/{id}/_create"
+    },
+    {
+      "name": "Index",
+      "method": "PUT",
+      "path": "/{index}/{type}/{id}"
+    },
+    {
+      "name": "Index",
+      "method": "PUT",
+      "path": "/{index}/{type}/{id}/_create"
+    },
+    {
+      "name": "IndexDeleteAliases",
+      "method": "DELETE",
+      "path": "/{index}/_alias/{name}"
+    },
+    {
+      "name": "IndexDeleteAliases",
+      "method": "DELETE",
+      "path": "/{index}/_aliases/{name}"
+    },
+    {
+      "name": "IndexFilteredStatsU{Emetric}",
+      "method": "GET",
+      "path": "/{index}/_stats/{metric}"
+    },
+    {
+      "name": "IndexPutAlias",
+      "method": "POST",
+      "path": "/_alias/{name}"
+    },
+    {
+      "name": "IndexPutAlias",
+      "method": "POST",
+      "path": "/_aliases/{name}"
+    },
+    {
+      "name": "IndexPutAlias",
+      "method": "POST",
+      "path": "/{index}/_alias/{name}"
+    },
+    {
+      "name": "IndexPutAlias",
+      "method": "POST",
+      "path": "/{index}/_aliases/{name}"
+    },
+    {
+      "name": "IndexPutAlias",
+      "method": "PUT",
+      "path": "/_alias"
+    },
+    {
+      "name": "IndexPutAlias",
+      "method": "PUT",
+      "path": "/_aliases/{name}"
+    },
+    {
+      "name": "IndexPutAlias",
+      "method": "PUT",
+      "path": "/{index}/_alias"
+    },
+    {
+      "name": "IndexPutAlias",
+      "method": "PUT",
+      "path": "/{index}/_alias/{name}"
+    },
+    {
+      "name": "IndexPutAlias",
+      "method": "PUT",
+      "path": "/{index}/_aliases"
+    },
+    {
+      "name": "IndexPutAlias",
+      "method": "PUT",
+      "path": "/{index}/_aliases/{name}"
+    },
+    {
+      "name": "IndexPutAliasByName",
+      "method": "PUT",
+      "path": "/_alias/{name}"
+    },
+    {
+      "name": "Indices",
+      "method": "GET",
+      "path": "/_cat/indices"
+    },
+    {
+      "name": "Indices",
+      "method": "GET",
+      "path": "/_cat/indices/{index}"
+    },
+    {
+      "name": "IndicesAliases",
+      "method": "POST",
+      "path": "/_aliases"
+    },
+    {
+      "name": "IndicesExists",
+      "method": "HEAD",
+      "path": "/{index}"
+    },
+    {
+      "name": "IndicesSegments",
+      "method": "GET",
+      "path": "/_segments"
+    },
+    {
+      "name": "IndicesSegments",
+      "method": "GET",
+      "path": "/{index}/_segments"
+    },
+    {
+      "name": "IndicesStatU{Emetric}",
+      "method": "GET",
+      "path": "/_stats/{metric}"
+    },
+    {
+      "name": "IndicesStatU{Emetric}",
+      "method": "GET",
+      "path": "/_stats/{metric}/{indexMetric}"
+    },
+    {
+      "name": "IndicesStats",
+      "method": "GET",
+      "path": "/_stats"
+    },
+    {
+      "name": "IndicesStats",
+      "method": "GET",
+      "path": "/{index}/_stats"
+    },
+    {
+      "name": "IndicesStatus",
+      "method": "GET",
+      "path": "/_status"
+    },
+    {
+      "name": "IndicesStatus",
+      "method": "GET",
+      "path": "/{index}/_status"
+    },
+    {
+      "name": "Main",
+      "method": "GET",
+      "path": "/"
+    },
+    {
+      "name": "Main",
+      "method": "HEAD",
+      "path": "/"
+    },
+    {
+      "name": "Master",
+      "method": "GET",
+      "path": "/_cat/master"
+    },
+    {
+      "name": "MoreLikeThis",
+      "method": "GET",
+      "path": "/{index}/{type}/{id}/_mlt"
+    },
+    {
+      "name": "MoreLikeThis",
+      "method": "POST",
+      "path": "/{index}/{type}/{id}/_mlt"
+    },
+    {
+      "name": "MultiGet",
+      "method": "GET",
+      "path": "/_mget"
+    },
+    {
+      "name": "MultiGet",
+      "method": "GET",
+      "path": "/{index}/_mget"
+    },
+    {
+      "name": "MultiGet",
+      "method": "GET",
+      "path": "/{index}/{type}/_mget"
+    },
+    {
+      "name": "MultiGet",
+      "method": "POST",
+      "path": "/_mget"
+    },
+    {
+      "name": "MultiGet",
+      "method": "POST",
+      "path": "/{index}/_mget"
+    },
+    {
+      "name": "MultiGet",
+      "method": "POST",
+      "path": "/{index}/{type}/_mget"
+    },
+    {
+      "name": "MultiPercolate",
+      "method": "GET",
+      "path": "/_mpercolate"
+    },
+    {
+      "name": "MultiPercolate",
+      "method": "GET",
+      "path": "/{index}/_mpercolate"
+    },
+    {
+      "name": "MultiPercolate",
+      "method": "GET",
+      "path": "/{index}/{type}/_mpercolate"
+    },
+    {
+      "name": "MultiPercolate",
+      "method": "POST",
+      "path": "/_mpercolate"
+    },
+    {
+      "name": "MultiPercolate",
+      "method": "POST",
+      "path": "/{index}/_mpercolate"
+    },
+    {
+      "name": "MultiPercolate",
+      "method": "POST",
+      "path": "/{index}/{type}/_mpercolate"
+    },
+    {
+      "name": "MultiSearch",
+      "method": "GET",
+      "path": "/_msearch"
+    },
+    {
+      "name": "MultiSearch",
+      "method": "GET",
+      "path": "/{index}/_msearch"
+    },
+    {
+      "name": "MultiSearch",
+      "method": "GET",
+      "path": "/{index}/{type}/_msearch"
+    },
+    {
+      "name": "MultiSearch",
+      "method": "POST",
+      "path": "/_msearch"
+    },
+    {
+      "name": "MultiSearch",
+      "method": "POST",
+      "path": "/{index}/_msearch"
+    },
+    {
+      "name": "MultiSearch",
+      "method": "POST",
+      "path": "/{index}/{type}/_msearch"
+    },
+    {
+      "name": "MultiTermVectors",
+      "method": "GET",
+      "path": "/_mtermvectors"
+    },
+    {
+      "name": "MultiTermVectors",
+      "method": "GET",
+      "path": "/{index}/_mtermvectors"
+    },
+    {
+      "name": "MultiTermVectors",
+      "method": "GET",
+      "path": "/{index}/{type}/_mtermvectors"
+    },
+    {
+      "name": "MultiTermVectors",
+      "method": "POST",
+      "path": "/_mtermvectors"
+    },
+    {
+      "name": "MultiTermVectors",
+      "method": "POST",
+      "path": "/{index}/_mtermvectors"
+    },
+    {
+      "name": "MultiTermVectors",
+      "method": "POST",
+      "path": "/{index}/{type}/_mtermvectors"
+    },
+    {
+      "name": "NodeInfoUiEnfo",
+      "method": "GET",
+      "path": "/_nodes/{nodeId}/info/{metrics}"
+    },
+    {
+      "name": "NodeInfoU{Emetrics}",
+      "method": "GET",
+      "path": "/_nodes/{nodeId}/{metrics}"
+    },
+    {
+      "name": "NodeStatsU{Emetric}",
+      "method": "GET",
+      "path": "/_nodes/{nodeId}/stats/{metric}"
+    },
+    {
+      "name": "NodeStatsU{Emetric}",
+      "method": "GET",
+      "path": "/_nodes/{nodeId}/stats/{metric}/{indexMetric}"
+    },
+    {
+      "name": "Nodes",
+      "method": "GET",
+      "path": "/_cat/nodes"
+    },
+    {
+      "name": "NodesHotThreads",
+      "method": "GET",
+      "path": "/_nodes/hot_threads"
+    },
+    {
+      "name": "NodesHotThreads",
+      "method": "GET",
+      "path": "/_nodes/{nodeId}/hot_threads"
+    },
+    {
+      "name": "NodesInfo",
+      "method": "GET",
+      "path": "/_nodes"
+    },
+    {
+      "name": "NodesInfoU{EnodeId}",
+      "method": "GET",
+      "path": "/_nodes/{nodeId}"
+    },
+    {
+      "name": "NodesRestart",
+      "method": "POST",
+      "path": "/_cluster/nodes/_restart"
+    },
+    {
+      "name": "NodesRestart",
+      "method": "POST",
+      "path": "/_cluster/nodes/{nodeId}/_restart"
+    },
+    {
+      "name": "NodesShutdown",
+      "method": "POST",
+      "path": "/_cluster/nodes/{nodeId}/_shutdown"
+    },
+    {
+      "name": "NodesShutdown",
+      "method": "POST",
+      "path": "/_shutdown"
+    },
+    {
+      "name": "NodesStatsU{Emetric}",
+      "method": "GET",
+      "path": "/_nodes/stats/{metric}"
+    },
+    {
+      "name": "NodesStatsU{Emetric}",
+      "method": "GET",
+      "path": "/_nodes/stats/{metric}/{indexMetric}"
+    },
+    {
+      "name": "OpenIndex",
+      "method": "POST",
+      "path": "/_open"
+    },
+    {
+      "name": "OpenIndex",
+      "method": "POST",
+      "path": "/{index}/_open"
+    },
+    {
+      "name": "Optimize",
+      "method": "GET",
+      "path": "/_optimize"
+    },
+    {
+      "name": "Optimize",
+      "method": "GET",
+      "path": "/{index}/_optimize"
+    },
+    {
+      "name": "Optimize",
+      "method": "POST",
+      "path": "/_optimize"
+    },
+    {
+      "name": "Optimize",
+      "method": "POST",
+      "path": "/{index}/_optimize"
+    },
+    {
+      "name": "PendingClusterTasks",
+      "method": "GET",
+      "path": "/_cat/pending_tasks"
+    },
+    {
+      "name": "PendingClusterTasks",
+      "method": "GET",
+      "path": "/_cluster/pending_tasks"
+    },
+    {
+      "name": "Percolate",
+      "method": "GET",
+      "path": "/{index}/{type}/_percolate"
+    },
+    {
+      "name": "Percolate",
+      "method": "GET",
+      "path": "/{index}/{type}/{id}/_percolate"
+    },
+    {
+      "name": "Percolate",
+      "method": "POST",
+      "path": "/{index}/{type}/_percolate"
+    },
+    {
+      "name": "Percolate",
+      "method": "POST",
+      "path": "/{index}/{type}/{id}/_percolate"
+    },
+    {
+      "name": "PercolateCount",
+      "method": "GET",
+      "path": "/{index}/{type}/_percolate/count"
+    },
+    {
+      "name": "PercolateCount",
+      "method": "GET",
+      "path": "/{index}/{type}/{id}/_percolate/count"
+    },
+    {
+      "name": "PercolateCount",
+      "method": "POST",
+      "path": "/{index}/{type}/_percolate/count"
+    },
+    {
+      "name": "PercolateCount",
+      "method": "POST",
+      "path": "/{index}/{type}/{id}/_percolate/count"
+    },
+    {
+      "name": "Plugins",
+      "method": "GET",
+      "path": "/_cat/plugins"
+    },
+    {
+      "name": "PutIndexTemplate",
+      "method": "POST",
+      "path": "/_template/{name}"
+    },
+    {
+      "name": "PutIndexTemplate",
+      "method": "PUT",
+      "path": "/_template/{name}"
+    },
+    {
+      "name": "PutIndexedScript",
+      "method": "POST",
+      "path": "/_scripts/{lang}/{id}"
+    },
+    {
+      "name": "PutIndexedScript",
+      "method": "POST",
+      "path": "/_scripts/{lang}/{id}/_create"
+    },
+    {
+      "name": "PutIndexedScript",
+      "method": "PUT",
+      "path": "/_scripts/{lang}/{id}"
+    },
+    {
+      "name": "PutIndexedScript",
+      "method": "PUT",
+      "path": "/_scripts/{lang}/{id}/_create"
+    },
+    {
+      "name": "PutMapping",
+      "method": "POST",
+      "path": "/_mapping/{type}"
+    },
+    {
+      "name": "PutMapping",
+      "method": "POST",
+      "path": "/_mappings/{type}"
+    },
+    {
+      "name": "PutMapping",
+      "method": "POST",
+      "path": "/{index}/_mapping/"
+    },
+    {
+      "name": "PutMapping",
+      "method": "POST",
+      "path": "/{index}/_mapping/{type}"
+    },
+    {
+      "name": "PutMapping",
+      "method": "POST",
+      "path": "/{index}/_mappings/"
+    },
+    {
+      "name": "PutMapping",
+      "method": "POST",
+      "path": "/{index}/_mappings/{type}"
+    },
+    {
+      "name": "PutMapping",
+      "method": "POST",
+      "path": "/{index}/{type}/_mapping"
+    },
+    {
+      "name": "PutMapping",
+      "method": "POST",
+      "path": "/{index}/{type}/_mappings"
+    },
+    {
+      "name": "PutMapping",
+      "method": "PUT",
+      "path": "/_mapping/{type}"
+    },
+    {
+      "name": "PutMapping",
+      "method": "PUT",
+      "path": "/_mappings/{type}"
+    },
+    {
+      "name": "PutMapping",
+      "method": "PUT",
+      "path": "/{index}/_mapping/"
+    },
+    {
+      "name": "PutMapping",
+      "method": "PUT",
+      "path": "/{index}/_mapping/{type}"
+    },
+    {
+      "name": "PutMapping",
+      "method": "PUT",
+      "path": "/{index}/_mappings/"
+    },
+    {
+      "name": "PutMapping",
+      "method": "PUT",
+      "path": "/{index}/_mappings/{type}"
+    },
+    {
+      "name": "PutMapping",
+      "method": "PUT",
+      "path": "/{index}/{type}/_mapping"
+    },
+    {
+      "name": "PutMapping",
+      "method": "PUT",
+      "path": "/{index}/{type}/_mappings"
+    },
+    {
+      "name": "PutRepository",
+      "method": "POST",
+      "path": "/_snapshot/{repository}"
+    },
+    {
+      "name": "PutRepository",
+      "method": "PUT",
+      "path": "/_snapshot/{repository}"
+    },
+    {
+      "name": "PutSearchTemplate",
+      "method": "GET",
+      "path": "/template"
+    },
+    {
+      "name": "PutSearchTemplate",
+      "method": "POST",
+      "path": "/_search/template/{id}"
+    },
+    {
+      "name": "PutSearchTemplate",
+      "method": "POST",
+      "path": "/_search/template/{id}/_create"
+    },
+    {
+      "name": "PutSearchTemplate",
+      "method": "PUT",
+      "path": "/_search/template/{id}"
+    },
+    {
+      "name": "PutSearchTemplate",
+      "method": "PUT",
+      "path": "/_search/template/{id}/_create"
+    },
+    {
+      "name": "PutWarmer",
+      "method": "POST",
+      "path": "/_warmer/{name}"
+    },
+    {
+      "name": "PutWarmer",
+      "method": "POST",
+      "path": "/_warmers/{name}"
+    },
+    {
+      "name": "PutWarmer",
+      "method": "POST",
+      "path": "/{index}/_warmer/{name}"
+    },
+    {
+      "name": "PutWarmer",
+      "method": "POST",
+      "path": "/{index}/_warmers/{name}"
+    },
+    {
+      "name": "PutWarmer",
+      "method": "POST",
+      "path": "/{index}/{type}/_warmer/{name}"
+    },
+    {
+      "name": "PutWarmer",
+      "method": "POST",
+      "path": "/{index}/{type}/_warmers/{name}"
+    },
+    {
+      "name": "PutWarmer",
+      "method": "PUT",
+      "path": "/_warmer/{name}"
+    },
+    {
+      "name": "PutWarmer",
+      "method": "PUT",
+      "path": "/_warmers/{name}"
+    },
+    {
+      "name": "PutWarmer",
+      "method": "PUT",
+      "path": "/{index}/_warmer/{name}"
+    },
+    {
+      "name": "PutWarmer",
+      "method": "PUT",
+      "path": "/{index}/_warmers/{name}"
+    },
+    {
+      "name": "PutWarmer",
+      "method": "PUT",
+      "path": "/{index}/{type}/_warmer/{name}"
+    },
+    {
+      "name": "PutWarmer",
+      "method": "PUT",
+      "path": "/{index}/{type}/_warmers/{name}"
+    },
+    {
+      "name": "Recovery",
+      "method": "GET",
+      "path": "/_recovery"
+    },
+    {
+      "name": "Recovery",
+      "method": "GET",
+      "path": "/{index}/_recovery"
+    },
+    {
+      "name": "Refresh",
+      "method": "GET",
+      "path": "/_refresh"
+    },
+    {
+      "name": "Refresh",
+      "method": "GET",
+      "path": "/{index}/_refresh"
+    },
+    {
+      "name": "Refresh",
+      "method": "POST",
+      "path": "/_refresh"
+    },
+    {
+      "name": "Refresh",
+      "method": "POST",
+      "path": "/{index}/_refresh"
+    },
+    {
+      "name": "RestoreSnapshot",
+      "method": "POST",
+      "path": "/_snapshot/{repository}/{snapshot}/_restore"
+    },
+    {
+      "name": "Search",
+      "method": "GET",
+      "path": "/_search"
+    },
+    {
+      "name": "Search",
+      "method": "GET",
+      "path": "/_search/exists"
+    },
+    {
+      "name": "Search",
+      "method": "GET",
+      "path": "/_search/template"
+    },
+    {
+      "name": "Search",
+      "method": "GET",
+      "path": "/{index}/_search"
+    },
+    {
+      "name": "Search",
+      "method": "GET",
+      "path": "/{index}/_search/exists"
+    },
+    {
+      "name": "Search",
+      "method": "GET",
+      "path": "/{index}/_search/template"
+    },
+    {
+      "name": "Search",
+      "method": "GET",
+      "path": "/{index}/{type}/_search"
+    },
+    {
+      "name": "Search",
+      "method": "GET",
+      "path": "/{index}/{type}/_search/exists"
+    },
+    {
+      "name": "Search",
+      "method": "GET",
+      "path": "/{index}/{type}/_search/template"
+    },
+    {
+      "name": "Search",
+      "method": "POST",
+      "path": "/_search"
+    },
+    {
+      "name": "Search",
+      "method": "POST",
+      "path": "/_search/exists"
+    },
+    {
+      "name": "Search",
+      "method": "POST",
+      "path": "/_search/template"
+    },
+    {
+      "name": "Search",
+      "method": "POST",
+      "path": "/{index}/_search"
+    },
+    {
+      "name": "Search",
+      "method": "POST",
+      "path": "/{index}/_search/exists"
+    },
+    {
+      "name": "Search",
+      "method": "POST",
+      "path": "/{index}/_search/template"
+    },
+    {
+      "name": "Search",
+      "method": "POST",
+      "path": "/{index}/{type}/_search"
+    },
+    {
+      "name": "Search",
+      "method": "POST",
+      "path": "/{index}/{type}/_search/exists"
+    },
+    {
+      "name": "Search",
+      "method": "POST",
+      "path": "/{index}/{type}/_search/template"
+    },
+    {
+      "name": "SearchScroll",
+      "method": "GET",
+      "path": "/_search/scroll"
+    },
+    {
+      "name": "SearchScroll",
+      "method": "GET",
+      "path": "/_search/scroll/{scroll_id}"
+    },
+    {
+      "name": "SearchScroll",
+      "method": "POST",
+      "path": "/_search/scroll"
+    },
+    {
+      "name": "SearchScroll",
+      "method": "POST",
+      "path": "/_search/scroll/{scroll_id}"
+    },
+    {
+      "name": "Segments",
+      "method": "GET",
+      "path": "/_cat/segments"
+    },
+    {
+      "name": "Segments",
+      "method": "GET",
+      "path": "/_cat/segments/{index}"
+    },
+    {
+      "name": "Shards",
+      "method": "GET",
+      "path": "/_cat/shards"
+    },
+    {
+      "name": "Shards",
+      "method": "GET",
+      "path": "/_cat/shards/{index}"
+    },
+    {
+      "name": "SnapshotsStatus",
+      "method": "GET",
+      "path": "/_snapshot/_status"
+    },
+    {
+      "name": "SnapshotsStatus",
+      "method": "GET",
+      "path": "/_snapshot/{repository}/_status"
+    },
+    {
+      "name": "SnapshotsStatus",
+      "method": "GET",
+      "path": "/_snapshot/{repository}/{snapshot}/_status"
+    },
+    {
+      "name": "Suggest",
+      "method": "GET",
+      "path": "/_suggest"
+    },
+    {
+      "name": "Suggest",
+      "method": "GET",
+      "path": "/{index}/_suggest"
+    },
+    {
+      "name": "Suggest",
+      "method": "POST",
+      "path": "/_suggest"
+    },
+    {
+      "name": "Suggest",
+      "method": "POST",
+      "path": "/{index}/_suggest"
+    },
+    {
+      "name": "SyncedFlush",
+      "method": "GET",
+      "path": "/_flush/synced"
+    },
+    {
+      "name": "SyncedFlush",
+      "method": "GET",
+      "path": "/{index}/_flush/synced"
+    },
+    {
+      "name": "SyncedFlush",
+      "method": "POST",
+      "path": "/_flush/synced"
+    },
+    {
+      "name": "SyncedFlush",
+      "method": "POST",
+      "path": "/{index}/_flush/synced"
+    },
+    {
+      "name": "TermVector",
+      "method": "GET",
+      "path": "/{index}/{type}/_termvector"
+    },
+    {
+      "name": "TermVector",
+      "method": "GET",
+      "path": "/{index}/{type}/{id}/_termvector"
+    },
+    {
+      "name": "TermVector",
+      "method": "POST",
+      "path": "/{index}/{type}/_termvector"
+    },
+    {
+      "name": "TermVector",
+      "method": "POST",
+      "path": "/{index}/{type}/{id}/_termvector"
+    },
+    {
+      "name": "ThreadPool",
+      "method": "GET",
+      "path": "/_cat/thread_pool"
+    },
+    {
+      "name": "TypesExists",
+      "method": "HEAD",
+      "path": "/{index}/{type}"
+    },
+    {
+      "name": "Update",
+      "method": "POST",
+      "path": "/{index}/{type}/{id}/_update"
+    },
+    {
+      "name": "UpdateSettings",
+      "method": "PUT",
+      "path": "/_settings"
+    },
+    {
+      "name": "UpdateSettings",
+      "method": "PUT",
+      "path": "/{index}/_settings"
+    },
+    {
+      "name": "Upgrade",
+      "method": "GET",
+      "path": "/_upgrade"
+    },
+    {
+      "name": "Upgrade",
+      "method": "GET",
+      "path": "/{index}/_upgrade"
+    },
+    {
+      "name": "Upgrade",
+      "method": "POST",
+      "path": "/_upgrade"
+    },
+    {
+      "name": "Upgrade",
+      "method": "POST",
+      "path": "/{index}/_upgrade"
+    },
+    {
+      "name": "ValidateQuery",
+      "method": "GET",
+      "path": "/_validate/query"
+    },
+    {
+      "name": "ValidateQuery",
+      "method": "GET",
+      "path": "/{index}/_validate/query"
+    },
+    {
+      "name": "ValidateQuery",
+      "method": "GET",
+      "path": "/{index}/{type}/_validate/query"
+    },
+    {
+      "name": "ValidateQuery",
+      "method": "POST",
+      "path": "/_validate/query"
+    },
+    {
+      "name": "ValidateQuery",
+      "method": "POST",
+      "path": "/{index}/_validate/query"
+    },
+    {
+      "name": "ValidateQuery",
+      "method": "POST",
+      "path": "/{index}/{type}/_validate/query"
+    },
+    {
+      "name": "VerifyRepository",
+      "method": "POST",
+      "path": "/_snapshot/{repository}/_verify"
+    }
+  ]
+}
